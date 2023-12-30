@@ -55,13 +55,13 @@ struct ProfileView: View {
                                         tintColor: .red)
                     }
                     
-                    Button{
+                    /*Button{
                         print("Borrar cuenta")
                     }label:{
                         SettingsRowView(imageName: "xmark.circle.fill",
                                         title: "Eliminar cuenta",
                                         tintColor: .red)
-                    }
+                    }*/
                     
                 }
                 
