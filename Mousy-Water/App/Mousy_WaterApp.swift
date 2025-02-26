@@ -3,7 +3,7 @@
 //  Mousy-Water
 //
 //  Created by Paul Jaime Felix Flores on 28/12/23.
-//
+//  Actualizando
 
 import SwiftUI
 import Firebase
@@ -20,7 +20,8 @@ struct Mousy_WaterApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
+           // ContentView()
                 .environmentObject(viewModel)
         }
     }

@@ -11,6 +11,7 @@
 		9B3BE5712B3E0E9000B49C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3BE5702B3E0E9000B49C1D /* ContentView.swift */; };
 		9B3BE5732B3E0E9400B49C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3BE5722B3E0E9400B49C1D /* Assets.xcassets */; };
 		9B3BE5762B3E0E9400B49C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3BE5752B3E0E9400B49C1D /* Preview Assets.xcassets */; };
+		9B5B065C2B40CFFD006E4B14 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B065B2B40CFFD006E4B14 /* SplashScreenView.swift */; };
 		9B6190862B3E7F5A00E0A749 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9B6190852B3E7F5A00E0A749 /* FirebaseAuth */; };
 		9B6190882B3E7F5A00E0A749 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B6190872B3E7F5A00E0A749 /* FirebaseFirestore */; };
 		9B61908A2B3E7F5A00E0A749 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9B6190892B3E7F5A00E0A749 /* FirebaseFirestoreSwift */; };
@@ -36,11 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1D21462C8438E800241131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B3BE56B2B3E0E9000B49C1D /* Mousy-Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mousy-Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3BE56E2B3E0E9000B49C1D /* Mousy_WaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mousy_WaterApp.swift; sourceTree = "<group>"; };
 		9B3BE5702B3E0E9000B49C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B3BE5722B3E0E9400B49C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B3BE5752B3E0E9400B49C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B5B065B2B40CFFD006E4B14 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		9B8F23672B40B4B1000A1B2C /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
 		9B8F23692B40B69A000A1B2C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		9B932CDC2B3E119300A91113 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 		9B3BE56D2B3E0E9000B49C1D /* Mousy-Water */ = {
 			isa = PBXGroup;
 			children = (
+				9B1D21462C8438E800241131 /* Info.plist */,
 				9B932CD82B3E108300A91113 /* Model */,
 				9B932CD72B3E107A00A91113 /* Core */,
 				9B932CD62B3E106B00A91113 /* Components */,
@@ -133,6 +137,7 @@
 				9BF294612B40BB1300C45E50 /* CartButton.swift */,
 				9BF294632B40BB4900C45E50 /* ProductRow.swift */,
 				9BF294692B40BFF100C45E50 /* SettingsButton.swift */,
+				9B5B065B2B40CFFD006E4B14 /* SplashScreenView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				9B3BE5712B3E0E9000B49C1D /* ContentView.swift in Sources */,
 				9BF294642B40BB4900C45E50 /* ProductRow.swift in Sources */,
 				9B3BE56F2B3E0E9000B49C1D /* Mousy_WaterApp.swift in Sources */,
+				9B5B065C2B40CFFD006E4B14 /* SplashScreenView.swift in Sources */,
 				9B8F23682B40B4B1000A1B2C /* ProductsView.swift in Sources */,
 				9B932CE72B3E36E500A91113 /* User.swift in Sources */,
 				9BF294682B40BBBB00C45E50 /* PaymentCompletionHandler.swift in Sources */,
@@ -431,7 +437,7 @@
 				DEVELOPMENT_TEAM = BN7VKM9KUJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Mousy-Water/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -460,7 +466,7 @@
 				DEVELOPMENT_TEAM = BN7VKM9KUJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Mousy-Water/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -3,7 +3,7 @@
 //  Mousy-Water
 //
 //  Created by Paul Jaime Felix Flores on 28/12/23.
-//
+// SIRVE
 
 import SwiftUI
 
@@ -12,8 +12,8 @@ struct ContentView: View {
     var body: some View {
         Group{
             if viewModel.userSession != nil {
-                ProductsView()
-                //ProfileView()
+                //ProductsView()
+                ProfileView()
             }else{
                 LoginView()
             }
@@ -21,8 +21,4 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+

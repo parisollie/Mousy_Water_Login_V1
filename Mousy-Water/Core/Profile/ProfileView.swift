@@ -4,7 +4,7 @@
 //
 //  Created by Paul Jaime Felix Flores on 28/12/23.
 //
-//
+
 import SwiftUI
 
 struct ProfileView: View {
@@ -70,8 +70,4 @@ struct ProfileView: View {
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
-    }
-}
+
