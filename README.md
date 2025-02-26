@@ -19,6 +19,8 @@ This application contains the following knowledge:
 
 - Design
 
+- Splash Screen
+
 ### The application looks like this:
 
 ![Simulator Screenshot - iPhone 16 - 2025-02-26 at 01 24 04](https://github.com/user-attachments/assets/3828e77a-affa-4cfb-bfce-82dd24fce2f3)
